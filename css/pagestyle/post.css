@@ -1,0 +1,160 @@
+/* 不对 doc 页面生效 */
+:root {
+    --c-dark--background-1: #222222dd;
+    --c-dark--background-2: #222222cc;
+    --c-dark--background-3: #22222255;
+    --c-dark--title-1: #ffffff;
+    --c-dark--text-1: #cccccccc;
+    --c-dark--text-highlight-1: #ffffff;
+    --c-dark--border-highlight-1: rgb(6,204,135);
+    --c-light--background-1: #dddddddd;
+    --c-light--background-2: #ddddddcc;
+    --c-light--background-3: #dddddd55;
+    --c-light--title-1: #000000;
+    --c-light--text-1: #333333cc;
+    --c-light--text-highlight-1: #000000;
+    --c-light--border-highlight-1: rgb(6,204,135);
+}
+
+/* 极限窄时 */
+@media screen and (min-width: 10em) {
+@media (prefers-color-scheme: light) {
+    div.toc__box {background: var(--c-light--background-1);}
+    li.nav__item > a {color: var(--c-light--text-1);}
+    li.nav__item > a:hover {color: var(--c-light--text-highlight-1);}
+    .toc__title > a {color: var(--c-light--title-1);}
+    .tocheadactive > a {color: var(--c-light--text-highlight-1);border-color: var(--c-light--border-highlight-1);}
+}
+@media (prefers-color-scheme: dark) {
+    div.toc__box {background: var(--c-dark--background-1);}
+    li.nav__item > a {color: var(--c-dark--text-1);}
+    li.nav__item > a:hover {color: var(--c-dark--text-highlight-1);}
+    .toc__title > a {color: var(--c-dark--title-1);}
+    .tocheadactive > a {color: var(--c-dark--text-highlight-1);border-color: var(--c-dark--border-highlight-1);}
+}
+aside#toc{
+  position: fixed;
+  top: calc(5vh + var(--tnh));
+  bottom: auto;
+  max-height: calc(80vh - var(--tnh));
+  border-radius: 0.8rem;
+  min-height: 15rem;
+}}
+/* 单栏时 */
+@media screen and (min-width: 39em) {
+@media (prefers-color-scheme: light) {
+    div.toc__box {background: var(--c-light--background-1);}
+    li.nav__item > a {color: var(--c-light--text-1);}
+    li.nav__item > a:hover {color: var(--c-light--text-highlight-1);}
+    .toc__title > a {color: var(--c-light--title-1);}
+    .tocheadactive > a {color: var(--c-light--text-highlight-1);border-color: var(--c-light--border-highlight-1);}
+}
+@media (prefers-color-scheme: dark) {
+    div.toc__box {background: var(--c-dark--background-1);}
+    li.nav__item > a {color: var(--c-dark--text-1);}
+    li.nav__item > a:hover {color: var(--c-dark--text-highlight-1);}
+    .toc__title > a {color: var(--c-dark--title-1);}
+    .tocheadactive > a {color: var(--c-dark--text-highlight-1);border-color: var(--c-dark--border-highlight-1);}
+}
+aside#toc{
+  position: fixed;
+  top: calc(5vh + var(--tnh));
+  bottom: auto;
+  max-height: calc(70vh - var(--tnh));
+  border-radius: 0.8rem;
+  min-height: 15rem;
+}}
+/* 两栏时，占一半空间 */
+@media screen and (min-width: 48em) {
+@media (prefers-color-scheme: light) {
+    div.toc__box {background: var(--c-light--background-2);}
+    li.nav__item > a {color: var(--c-light--text-1);}
+    li.nav__item > a:hover {color: var(--c-light--text-highlight-1);}
+    .toc__title > a {color: var(--c-light--title-1);}
+    .tocheadactive > a {color: var(--c-light--text-highlight-1);border-color: var(--c-light--border-highlight-1);}
+}
+@media (prefers-color-scheme: dark) {
+    div.toc__box {background: var(--c-dark--background-2);}
+    li.nav__item > a {color: var(--c-dark--text-1);}
+    li.nav__item > a:hover {color: var(--c-dark--text-highlight-1);}
+    .toc__title > a {color: var(--c-dark--title-1);}
+    .tocheadactive > a {color: var(--c-dark--text-highlight-1);border-color: var(--c-dark--border-highlight-1);}
+}
+aside#toc{
+  position: fixed;
+  top: auto;
+  bottom: calc(-87vh);
+  max-height: calc(60vh - var(--tnh));
+  border-radius: 0.8rem;
+  min-height: 15rem;
+}}
+/* 三栏时，占更多空间 */
+@media screen and (min-width: 79em) {
+@media (prefers-color-scheme: light) {
+    div.toc__box {background: var(--c-light--background-3);}
+    li.nav__item > a {color: var(--c-light--text-1);}
+    li.nav__item > a:hover {color: var(--c-light--text-highlight-1);}
+    .toc__title > a {color: var(--c-light--title-1);}
+    .tocheadactive > a {color: var(--c-light--text-highlight-1);border-color: var(--c-light--border-highlight-1);}
+}
+@media (prefers-color-scheme: dark) {
+    div.toc__box {background: var(--c-dark--background-3);}
+    li.nav__item > a {color: var(--c-dark--text-1);}
+    li.nav__item > a:hover {color: var(--c-dark--text-highlight-1);}
+    .toc__title > a {color: var(--c-dark--title-1);}
+    .tocheadactive > a {color: var(--c-dark--text-highlight-1);border-color: var(--c-dark--border-highlight-1);}
+}
+aside#toc{
+  position: fixed;
+  top: auto;
+  bottom: calc(-92vh);
+  max-height: calc(66vh);
+  border-radius: 0.8rem;
+  min-height: 15rem;
+}}
+/* 五栏时，占几乎全部空间 */
+@media screen and (min-width: 120em) {
+@media (prefers-color-scheme: light) {
+    div.toc__box {background: var(--c-light--background-3);}
+    li.nav__item > a {color: var(--c-light--text-1);}
+    li.nav__item > a:hover {color: var(--c-light--text-highlight-1);}
+    .toc__title > a {color: var(--c-light--title-1);}
+    .tocheadactive > a {color: var(--c-light--text-highlight-1);border-color: var(--c-light--border-highlight-1);}
+}
+@media (prefers-color-scheme: dark) {
+    div.toc__box {background: var(--c-dark--background-3);}
+    li.nav__item > a {color: var(--c-dark--text-1);}
+    li.nav__item > a:hover {color: var(--c-dark--text-highlight-1);}
+    .toc__title > a {color: var(--c-dark--title-1);}
+    .tocheadactive > a {color: var(--c-dark--text-highlight-1);border-color: var(--c-dark--border-highlight-1);}
+}
+aside#toc{
+  position: absolute;
+  top: auto;
+  bottom: calc(-92vh);
+  max-height: calc(100vh);
+  border-radius: 0.8rem;
+  min-height: 15rem;
+}}
+
+/* 边注位置，尽量放左边，无空位时放右边 */
+@media screen and (min-width: 48em) {
+aside.marginal__footnote {
+	float: right !important;
+	clear: right !important;
+  display:box;
+}}
+@media screen and (min-width: 79em) {
+aside.marginal__footnote {
+	float: left !important;
+	clear: left !important;
+  display:box;
+}}
+
+/*
+l-masthead
+l-page(grid)
+- #l-main.l-tnp(flex)
+  - #l-content-box.l-box l-box--full(grid)
+    - l-content
+*/
