@@ -1,0 +1,1 @@
+window.addEventListener("DOMContentLoaded",e=>{new PagefindUI({element:"#search-with-pagefind",showImages:!0,baseUrl:"/"})})

@@ -1,0 +1,1 @@
+import mermaid from"https://cdn.jsdelivr.net/npm/mermaid@latest/dist/mermaid.esm.min.mjs";mermaid.initialize({startOnLoad:!0,fontFamily:"ibm plex sans",theme:"base",version:"latest"})
