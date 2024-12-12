@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>新鲜事 on clsty 的网络空间站</title><link>https://blog.celestialy.top/</link><description>Recent content in 新鲜事 on clsty 的网络空间站</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Thu, 01 Aug 2024 00:00:00 +0800</lastBuildDate><atom:link href="https://blog.celestialy.top/index.xml" rel="self" type="application/rss+xml"/><item><title>月摘：2024.08</title><link>https://blog.celestialy.top/p/e725884f1/2024-08-00/</link><pubDate>Thu, 01 Aug 2024 00:00:00 +0800</pubDate><guid>https://blog.celestialy.top/p/e725884f1/2024-08-00/</guid><description>&lt;p class="p-first">无论发生了什么，后悔是无意义的，唯当初的决定才有意义。&lt;/p>
+&lt;h2 id="arcniso-例行更新">
+	&lt;a class="h-a" href="#arcniso-%e4%be%8b%e8%a1%8c%e6%9b%b4%e6%96%b0">arCNiso 例行更新&lt;/a>
+&lt;/h2>&lt;p>只是例行更新，一切正常。&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/p>
+&lt;h2 id="空间站月度更新暂停">
+	&lt;a class="h-a" href="#%e7%a9%ba%e9%97%b4%e7%ab%99%e6%9c%88%e5%ba%a6%e6%9b%b4%e6%96%b0%e6%9a%82%e5%81%9c">空间站月度更新暂停&lt;/a>
+&lt;/h2>&lt;p>因为某些原因，笔者在七月无力写出至少一篇文章，并且之后维持月更也较为困难，因此暂停月度更新；但随缘更新还是可能会有，若有更新内容也同样会在“新鲜事”里告知，RSS 订阅者可正常收到消息。&lt;/p>
+&lt;p>衷心感谢各位读者朋友的支持。&lt;/p>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>&lt;a class="link link--text" href="https://arcn.celestialy.top" rel="external">arCNiso&lt;/a> 是笔者为了解决原版 archiso 的一些痛点而改进的一个分支，仓库为 &lt;a class="link link--text" href="https://github.com/clsty/arCNiso" rel="external">GitHub:clsty/arCNiso&lt;/a>。&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div></description></item><item><title>月摘：2024.07</title><link>https://blog.celestialy.top/p/61f4fe834/2024-07-00/</link><pubDate>Mon, 01 Jul 2024 00:00:00 +0800</pubDate><guid>https://blog.celestialy.top/p/61f4fe834/2024-07-00/</guid><description>&lt;p class="p-first">长风破浪会有时，直挂云帆济沧海。——李白《行路难》&lt;/p>
+&lt;h2 id="arcniso-例行更新">
+	&lt;a class="h-a" href="#arcniso-%e4%be%8b%e8%a1%8c%e6%9b%b4%e6%96%b0">arCNiso 例行更新&lt;/a>
+&lt;/h2>&lt;p>例行更新。&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>
+值得注意的有：&lt;/p>
+&lt;ul>
+&lt;li>OpenSSH 最近修复了一个重大的安全漏洞，因此请及时更新到最新版。&lt;/li>
+&lt;li>引导器（目前是 systemd-boot）所陈列的启动条目有所变更，其中默认条目不变更键位（即不交换左 Ctrl 与 Caps 键），且禁用语音与蜂鸣器。&lt;/li>
+&lt;li>常被国内用户诟病的 reflector 服务现已被禁用，用户可通过 &lt;code>systemctl enable --now reflector&lt;/code> 来重新启用它。&lt;/li>
+&lt;/ul>
+&lt;h2 id="空间站更新汇总">
+	&lt;a class="h-a" href="#%e7%a9%ba%e9%97%b4%e7%ab%99%e6%9b%b4%e6%96%b0%e6%b1%87%e6%80%bb">空间站更新汇总&lt;/a>
+&lt;/h2>&lt;p>除了本文以外，空间站还更新了以下内容：&lt;/p>
+&lt;dl>
+&lt;dt>&lt;strong>散文屋&lt;/strong>&lt;/dt>
+&lt;dd>&lt;ul>
+&lt;li>&lt;a class="link link--text" href="https://blog.celestialy.top/p/25dbc0cc9">BTRFS 实践式快速入门&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/dd>
+&lt;/dl>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>&lt;a class="link link--text" href="https://arcn.celestialy.top" rel="external">arCNiso&lt;/a> 是笔者为了解决原版 archiso 的一些痛点而改进的一个分支，仓库为 &lt;a class="link link--text" href="https://github.com/clsty/arCNiso" rel="external">GitHub:clsty/arCNiso&lt;/a>。&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div></description></item><item><title>月摘：2024.06</title><link>https://blog.celestialy.top/p/558bd6ebf/2024-06-00/</link><pubDate>Sat, 01 Jun 2024 00:00:00 +0800</pubDate><guid>https://blog.celestialy.top/p/558bd6ebf/2024-06-00/</guid><description>&lt;p class="p-first">有时或许连你自己都不知道，你已有达成目标的能力；直到你得到了一份高于活化能的初始能量。&lt;/p>
+&lt;h2 id="空间站的又一点变化">
+	&lt;a class="h-a" href="#%e7%a9%ba%e9%97%b4%e7%ab%99%e7%9a%84%e5%8f%88%e4%b8%80%e7%82%b9%e5%8f%98%e5%8c%96">空间站的又一点变化&lt;/a>
+&lt;/h2>&lt;p>上个月，空间站又发生了四个主要变化&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>，距离理想中的&lt;del>究极&lt;/del>完全体又双叒叕进了一步。&lt;/p>
+&lt;h3 id="链接管理优化">
+	&lt;a class="h-a" href="#%e9%93%be%e6%8e%a5%e7%ae%a1%e7%90%86%e4%bc%98%e5%8c%96">链接管理优化&lt;/a>
+&lt;/h3>&lt;p>之前本站采用所谓“portal”来确保链接不会 404；目前，这些链接仍然不会导致 404，只是每个页面的固有链接发生了变化。具体详见这篇&lt;a class="link link--text" href="https://blog.celestialy.top/p/feda224a0">文章&lt;/a>。&lt;/p>
+&lt;h3 id="边脚注的实现">
+	&lt;a class="h-a" href="#%e8%be%b9%e8%84%9a%e6%b3%a8%e7%9a%84%e5%ae%9e%e7%8e%b0">边脚注的实现&lt;/a>
+&lt;/h3>&lt;p>这是我个人最喜欢的一个改进。&lt;/p>
+&lt;ul>
+&lt;li>脚注会同时出现在边注的位置&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>，我称之为“边脚注”。&lt;/li>
+&lt;li>边脚注由 JavaScript 实现，不会像由 Perplex 内置短代码实现的边注那样干扰 RSS 输出。&lt;/li>
+&lt;li>布局表现：
+&lt;ul>
+&lt;li>总体位置较为灵活，会随着页面宽度改变&lt;sup id="fnref:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup>。&lt;/li>
+&lt;li>竖直位置与正文内部的脚注基本接近。&lt;/li>
+&lt;li>在正文外部时，与中心部分的水平相对位置非常稳定。&lt;/li>
+&lt;li>在正文右侧时，不会与 featured 图片重合。&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>修复了当多篇含有脚注的文章被渲染到同一页面时，脚注 id 冲突的问题。&lt;sup id="fnref:4">&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref">4&lt;/a>&lt;/sup>&lt;/li>
+&lt;/ul>
+&lt;p>如图所示，笔者很早就想要这样的效果了，没想到自己真的能做出来，作为强迫症无比满足。&lt;/p>
+&lt;p>&lt;a id="figure--fig: asis-1">&lt;/a>&lt;/p>
+
+
+
+
+
+
+
+ 
+ 
+ 
+
+
+
+ 
+
+
+
+
+
+&lt;figure>&lt;img src="https://blog.celestialy.top/p/558bd6ebf/2024-06-00/pic.asis/1_hu9331364926437168040.png"
+ alt="Figure 1: 纪念终于能稳定显示在正文左侧的边脚注" width="400"/>&lt;figcaption>&lt;p>&lt;span class="figure-number">Figure 1: &lt;/span>纪念终于能稳定显示在正文左侧的边脚注&lt;/p>
+ &lt;/figcaption>
+&lt;/figure>
+
+&lt;h3 id="侧边目录栏改进">
+	&lt;a class="h-a" href="#%e4%be%a7%e8%be%b9%e7%9b%ae%e5%bd%95%e6%a0%8f%e6%94%b9%e8%bf%9b">侧边目录栏改进&lt;/a>
+&lt;/h3>&lt;p>Perplex 本来也内置了一个侧边目录栏，但是存在感极弱。&lt;/p>
+&lt;ul>
+&lt;li>网页加载时，目录栏不会自动打开。&lt;/li>
+&lt;li>除非屏幕极宽，否则目录栏不会一直显示，一旦失去焦点也就失去了踪影。&lt;/li>
+&lt;li>当前所在标题不会在目录栏中高亮，也更不会自动滚动到可视范围。&lt;/li>
+&lt;/ul>
+&lt;p>这次的改进不仅依次解决了以上问题，还增加了不同屏幕宽度下位置、尺寸与透明度的自适应改变，以期与其它元素&lt;sup id="fnref:5">&lt;a href="#fn:5" class="footnote-ref" role="doc-noteref">5&lt;/a>&lt;/sup>和谐共处。&lt;/p>
+&lt;h3 id="亮色模式修复">
+	&lt;a class="h-a" href="#%e4%ba%ae%e8%89%b2%e6%a8%a1%e5%bc%8f%e4%bf%ae%e5%a4%8d">亮色模式修复&lt;/a>
+&lt;/h3>&lt;p>这部分的改进背后是一个有点令人哭笑不得的事件。&lt;/p>
+&lt;p>起因是有人向我反馈，首页的部分章节标题与背景色同为白色，进而融为一体。我感到大惑不解，毕竟“Perplex 可是只支持深色模式的”。&lt;/p>
+&lt;p>而之后我才了解到，&lt;strong>Perplex 其实本来就支持亮色主题&lt;/strong>，我对此不知情的原因则是：&lt;/p>
+&lt;ul>
+&lt;li>我习惯在浏览器与系统上始终开启深色模式。&lt;/li>
+&lt;li>大多数支持亮/暗两套配色的 Hugo 主题都会给出一个切换按钮，而 Perplex 是个例外。&lt;/li>
+&lt;/ul>
+&lt;p>在一些紧急修复之后，亮色模式能够正常工作了，只是离我的理想仍有差距——至少也要实现一个切换按钮，不然又会出现像我一样以为它只支持暗色（或亮色）模式的人吧。&lt;sup id="fnref:6">&lt;a href="#fn:6" class="footnote-ref" role="doc-noteref">6&lt;/a>&lt;/sup>&lt;/p>
+&lt;h2 id="arcniso-例行更新">
+	&lt;a class="h-a" href="#arcniso-%e4%be%8b%e8%a1%8c%e6%9b%b4%e6%96%b0">arCNiso 例行更新&lt;/a>
+&lt;/h2>&lt;p>只是例行更新，一切正常。&lt;sup id="fnref:7">&lt;a href="#fn:7" class="footnote-ref" role="doc-noteref">7&lt;/a>&lt;/sup>&lt;/p>
+&lt;h2 id="空间站更新汇总">
+	&lt;a class="h-a" href="#%e7%a9%ba%e9%97%b4%e7%ab%99%e6%9b%b4%e6%96%b0%e6%b1%87%e6%80%bb">空间站更新汇总&lt;/a>
+&lt;/h2>&lt;p>除了本文以外，空间站还更新了以下内容：&lt;/p>
+&lt;dl>
+&lt;dt>&lt;strong>散文屋&lt;/strong>&lt;/dt>
+&lt;dd>&lt;ul>
+&lt;li>&lt;a class="link link--text" href="https://blog.celestialy.top/p/feda224a0">浅谈网站 URL 管理与预防 404&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/dd>
+&lt;dd>&lt;ul>
+&lt;li>&lt;a class="link link--text" href="https://blog.celestialy.top/p/73c96d8f7">关于 backquote 理解的一个汇总与总结&lt;/a>（来自 &lt;a class="link link--text" href="https://blog.celestialy.top/authors/include-yy/">include-yy&lt;/a>）&lt;/li>
+&lt;/ul>
+&lt;/dd>
+&lt;dd>&lt;ul>
+&lt;li>&lt;a class="link link--text" href="https://blog.celestialy.top/p/de989ed13">折腾 Firefox 浏览器（外观篇）&lt;/a>（来自 &lt;a class="link link--text" href="https://blog.celestialy.top/authors/unknown/">unknown&lt;/a>）&lt;/li>
+&lt;/ul>
+&lt;/dd>
+&lt;/dl>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>次要变化则包括新增字词数统计、Artalk 更新、再次加载页面时恢复上一次浏览位置、代码块自动换行而非水平滚动、代码块显示行号等。&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2">
+&lt;p>这种做法并不是首创，而是借鉴自 &lt;a class="link link--text" href="https://gwern.net/sidenote" rel="external">gwern.net&lt;/a>。&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:3">
+&lt;p>尽可能减少边脚注与侧边目录栏抢空间的机会。&amp;#160;&lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:4">
+&lt;p>这口陈年旧锅本来要扔给 Hugo 所依赖的 Markdown 引擎——Goldmark，但被扔回到 Hugo 这边已经有约四年了，参见 &lt;a class="link link--text" href="https://discourse.gohugo.io/t/goldmark-how-to-configure-the-footnote-anchor-prefix/29639/7" rel="external">Hugo 论坛的讨论&lt;/a>以及 &lt;a class="link link--text" href="https://github.com/gohugoio/hugo/issues/8045" rel="external">GitHub 上的 issue&lt;/a>。&amp;#160;&lt;a href="#fnref:4" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:5">
+&lt;p>容易与目录栏争抢空间的，主要是头图和边注。&amp;#160;&lt;a href="#fnref:5" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:6">
+&lt;p>这需要将 CSS 与 JavaScript 一同做调整，并不是只靠已有的 CSS 加一行能用按钮触发的 JS 命令就能实现的，我只能试着抽空实现它了。&lt;del>咕咕咕&lt;/del>&amp;#160;&lt;a href="#fnref:6" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:7">
+&lt;p>&lt;a class="link link--text" href="https://arcn.celestialy.top" rel="external">arCNiso&lt;/a> 是笔者为了解决原版 archiso 的一些痛点而改进的一个分支，仓库为 &lt;a class="link link--text" href="https://github.com/clsty/arCNiso" rel="external">GitHub:clsty/arCNiso&lt;/a>。&amp;#160;&lt;a href="#fnref:7" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div></description></item><item><title>月摘：2024.05</title><link>https://blog.celestialy.top/p/04ebf11ca/2024-05-00/</link><pubDate>Wed, 01 May 2024 00:00:00 +0800</pubDate><guid>https://blog.celestialy.top/p/04ebf11ca/2024-05-00/</guid><description>&lt;p class="p-first">赛博空间站，前进四！&lt;/p>
+&lt;h2 id="空间站的四个变化">
+	&lt;a class="h-a" href="#%e7%a9%ba%e9%97%b4%e7%ab%99%e7%9a%84%e5%9b%9b%e4%b8%aa%e5%8f%98%e5%8c%96">空间站的四个变化&lt;/a>
+&lt;/h2>&lt;p>上个月&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>，空间站发生了四个变化，距离理想中的&lt;del>究极&lt;/del>完全体又进了一步。&lt;/p>
+&lt;h3 id="启用在-cloudflare-上的副本">
+	&lt;a class="h-a" href="#%e5%90%af%e7%94%a8%e5%9c%a8-cloudflare-%e4%b8%8a%e7%9a%84%e5%89%af%e6%9c%ac">启用在 Cloudflare 上的副本&lt;/a>
+&lt;/h3>&lt;p>之前，域名 &lt;a class="link link--text" href="https://blog.celestialy.top" rel="external">blog.celestialy.top&lt;/a> 对应的静态站点托管在 GitHub 上，由于国内访问不稳定，套了一层 Cloudflare 保护代理&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>。&lt;/p>
+&lt;p>为避免不必要的麻烦，现在 &lt;a class="link link--text" href="https://blog.celestialy.top" rel="external">blog.celestialy.top&lt;/a> 直接指向 GitHub Pages，并且新增一份副本布署在 Cloudflare Pages 上，域名为 &lt;a class="link link--text" href="https://css.celestialy.top" rel="external">css.celestialy.top&lt;/a>。&lt;/p>
+&lt;p>读者可直接访问 &lt;a class="link link--text" href="https://css.celestialy.top" rel="external">css.celestialy.top&lt;/a>，它与 &lt;a class="link link--text" href="https://blog.celestialy.top" rel="external">blog.celestialy.top&lt;/a> 两个站点可视为线路不同的同一站点，评论区也是完全相同的。&lt;/p>
+&lt;h3 id="终于有评论区了">
+	&lt;a class="h-a" href="#%e7%bb%88%e4%ba%8e%e6%9c%89%e8%af%84%e8%ae%ba%e5%8c%ba%e4%ba%86">终于有评论区了&lt;/a>
+&lt;/h3>&lt;p>Perplex 主题本身并不支持评论区，好在笔者的 Hugo 水平稍微提升了一些，可以自行尝试集成。在试用了多种评论系统之后，我最后决定暂时采用 Artalk，它与我理想中的评论系统只差一步之遥（就是下面所说的这一步）。&lt;/p>
+&lt;p>由于 Artalk 使用填写邮箱来确定身份，却暂不支持验证邮箱，无法防止有心之人冒充他人身份，于是本站暂时追加了“也需要亲自发评论到我的邮箱”的这种过渡措施，有效期至 &lt;a class="link link--text" href="https://github.com/ArtalkJS/Artalk/issues/840" rel="external">Artalk#840&lt;/a> 解决，且本站 Artalk 成功更新之时。&lt;/p>
+&lt;h3 id="再见-hugo-archetypes你好-ox-hugo">
+	&lt;a class="h-a" href="#%e5%86%8d%e8%a7%81-hugo-archetypes%e4%bd%a0%e5%a5%bd-ox-hugo">再见 Hugo archetypes；你好 ox-hugo&lt;/a>
+&lt;/h3>&lt;p>我曾在 &lt;a class="link link--text" href="https://emacs-china.org/t/topic/26711" rel="external">Emacs China&lt;/a> 吐槽过，用 Perplex 主题发文还要配图，并且填写巨长的导言区，流程可谓繁琐至极；而 Hugo 自带的 archetypes 模板机制，在 Perplex 主题下能发挥的作用非常有限，即使我写了个脚本封装 &lt;code>hugo new content&lt;/code>，以便在任意目录深度（而不限定于项目根目录）调用 archetypes，导言区的准备工作依然非常复杂。&lt;/p>
+&lt;blockquote>
+&lt;p>在迁移发布了仅两篇之后，我就无法再说服自己“这只是仪式感”了。&lt;/p>
+&lt;/blockquote>
+&lt;p>在写作热情即将被完全磨灭之际，我忽然又想起了很久之前浅尝辄止的 &lt;a class="link link--text" href="https://ox-hugo.scripter.co" rel="external">ox-hugo&lt;/a>&lt;sup id="fnref:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup>，一个能通过 Emacs Org-mode 导出到 Hugo 所使用的 Markdown 的自动化工具。正巧，最近我解决了 Org-mode 对我而言的一些痛点，如果能利用 Org-mode 来写博客，想必是轻松愉快的。&lt;/p>
+&lt;p>于是在几十个小时的奋战下，ox-hugo 终于成功接管了我的写作流程，并结合 Org-mode 自身非常有利于自动化的特性，以及一些自定义的 Elisp 代码，省去了不少本来需要我手动处理的杂务；它甚至还实现了&lt;a class="link link--text" href="https://blog.celestialy.top/p/95e11a033">《网页（博客/笔记）的 LaTeX 支持现状》&lt;/a>中的核心需求。&lt;/p>
+&lt;p>利器到手，笔者连更了两篇文章，&lt;del>其一甚至还是全新之作&lt;/del>&lt;sup id="fnref:4">&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref">4&lt;/a>&lt;/sup>。&lt;/p>
+&lt;h3 id="我尝试了一种很新的友链交换邀约">
+	&lt;a class="h-a" href="#%e6%88%91%e5%b0%9d%e8%af%95%e4%ba%86%e4%b8%80%e7%a7%8d%e5%be%88%e6%96%b0%e7%9a%84%e5%8f%8b%e9%93%be%e4%ba%a4%e6%8d%a2%e9%82%80%e7%ba%a6">我尝试了一种很新的友链交换邀约&lt;/a>
+&lt;/h3>&lt;p>友链交换的邀约&lt;sup id="fnref:5">&lt;a href="#fn:5" class="footnote-ref" role="doc-noteref">5&lt;/a>&lt;/sup>已经开放，虽然方案有些特别，即所谓“以文交友”，不过根据规则是可以复用已有文章的，门槛并不算高。&lt;/p>
+&lt;p>此外，这并不是与我交换友链的唯一可能途径；只是其他途径看缘分，并没有明确安排。&lt;/p>
+&lt;p>参见&lt;a class="link link--text" href="https://blog.celestialy.top/pub-friend-link/">友情链接交换的开放提议&lt;/a>。&lt;/p>
+&lt;h2 id="arcniso-202405-例行更新">
+	&lt;a class="h-a" href="#arcniso-202405-%e4%be%8b%e8%a1%8c%e6%9b%b4%e6%96%b0">arCNiso 2024.05 例行更新&lt;/a>
+&lt;/h2>&lt;p>archiso 在最近几个月更新很少，但在过去的一个月突然连更了几个提交，将 Bootloader 从 GRUB2 改为 systemd-boot，且体积又增大不少。&lt;/p>
+&lt;p>为了准备作为 archiso 的下游项目 arCNiso&lt;sup id="fnref:6">&lt;a href="#fn:6" class="footnote-ref" role="doc-noteref">6&lt;/a>&lt;/sup> 的五月例行更新，我不仅需要依次同步上游的变更，还需要再压缩体积才能让 arCNiso 保持在 2G 以内，更要尽可能让安全启动在 systemd-boot 下也能工作。&lt;/p>
+&lt;p>因为上个月空闲时间余量明显不足，我差点以为这个版本无法准时完成发布了，好在体积问题以 &lt;code>zathura&lt;/code>、&lt;code>vlc&lt;/code>、&lt;code>partitionmanager&lt;/code>、&lt;code>ddcutil&lt;/code>、&lt;code>man-pages-zh_cn&lt;/code>、&lt;code>grub-customizer&lt;/code> 等软件包&lt;sup id="fnref:7">&lt;a href="#fn:7" class="footnote-ref" role="doc-noteref">7&lt;/a>&lt;/sup>的移除为代价而顺利解决；至于安全启动，经测试似乎直接可用，不需要什么额外措施。总之，最后仍是正常更新了。&lt;/p>
+&lt;h2 id="空间站更新汇总">
+	&lt;a class="h-a" href="#%e7%a9%ba%e9%97%b4%e7%ab%99%e6%9b%b4%e6%96%b0%e6%b1%87%e6%80%bb">空间站更新汇总&lt;/a>
+&lt;/h2>&lt;p>除了本文以外，空间站还更新了以下内容：&lt;/p>
+&lt;dl>
+&lt;dt>&lt;strong>散文屋&lt;/strong>&lt;/dt>
+&lt;dd>此处在四月发布了两篇文章，并且都是指南向的，侧重于实用性。&lt;/dd>
+&lt;dd>&lt;ul>
+&lt;li>&lt;a class="link link--text" href="https://blog.celestialy.top/p/4b43cc5e4">Firefox 禁用 DRM 提示&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/dd>
+&lt;dd>&lt;ul>
+&lt;li>&lt;a class="link link--text" href="https://blog.celestialy.top/p/61781423b">Hyprland 以平板/笔记本作扩展屏&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/dd>
+&lt;/dl>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>今后应当统一一下说法：例如 5 月的月摘在 5 月 1 日发布，总结的是“上个月”也即 4 月的事情，而“这个月”应当指 5 月才对。&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2">
+&lt;p>GitHub Pages 本身也提供 HTTPS 证书，而它的刷新无法在启用了 Cloudflare 保护代理时进行。因此，每过几个月就要手动关闭 Cloudflare 保护代理，再到 GitHub 上多刷新几次直到 DNS 检查通过（意味着 HTTPS 证书成功刷新），再重新开启 Cloudflare 保护代理，这样才能解决证书过期问题。&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:3">
+&lt;p>仓库地址：&lt;a class="link link--text" href="https://github.com/kaushalmodi/ox-hugo" rel="external">https://github.com/kaushalmodi/ox-hugo&lt;/a>&amp;#160;&lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:4">
+&lt;p>也即，并不是从 Hextra 时期的博文迁移而来的——并不是什么值得炫耀的事（笑）。&amp;#160;&lt;a href="#fnref:4" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:5">
+&lt;p>我对是否要采用“申请”（或“请求”）这个词纠结了挺久，因为友链的交换应当是双向选择的结果，而“申请”似乎有些单向的意味。所以我最终采用了“邀约”这个有些奇怪的措辞。&amp;#160;&lt;a href="#fnref:5" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:6">
+&lt;p>&lt;a class="link link--text" href="https://github.com/clsty/arCNiso" rel="external">arCNiso&lt;/a> 是 clsty 开发维护的自由开源项目，简单点说就是对 Arch Linux 的 Live CD 的一种易用化定制。&amp;#160;&lt;a href="#fnref:6" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:7">
+&lt;p>你还是可以用 Firefox 看 PDF 的，虽然确实不如 zathura。&amp;#160;&lt;a href="#fnref:7" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div></description></item><item><title>月摘：2024.04</title><link>https://blog.celestialy.top/p/481dba525/2024-04-00/</link><pubDate>Mon, 01 Apr 2024 00:00:00 +0800</pubDate><guid>https://blog.celestialy.top/p/481dba525/2024-04-00/</guid><description>&lt;p class="p-first">春暖花开，正是踏青好时节。&lt;/p>
+&lt;p>本月摘不含任何愚人节要素，请放心阅读。&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;del>当大家以为你要整个活时，你没有整个活，这也是一种整活。&lt;/del>&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="xz-utils-事件">
+	&lt;a class="h-a" href="#xz-utils-%e4%ba%8b%e4%bb%b6">xz-utils 事件&lt;/a>
+&lt;/h2>&lt;p>三月，在开源圈子里最炸裂的大概就是 xz-utils 事件了（简称 xz 事件）。&lt;/p>
+&lt;ul>
+&lt;li>&lt;a class="link link--text" href="https://archlinux.org/news/the-xz-package-has-been-backdoored/" rel="external">Arch Linux 官网新闻&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link link--text" href="https://emacs-china.org/t/xz-utils/26933" rel="external">Emacs China 的讨论&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link link--text" href="https://www.zhihu.com/question/650826484/answers/updated" rel="external">知乎的讨论&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>对于 Arch Linux，万幸的是最关键的 openssh 并没有受到影响，因此我估计这不会对 Arch 用户造成什么实质威胁。&lt;/p>
+&lt;p>不过，恶意代码终归是不能留着过年的。&lt;/p>
+&lt;ul>
+&lt;li>Arch 的对应软件包 &lt;code>xz&lt;/code> 已光速更新到不含恶意代码的 &lt;code>5.6.1-2&lt;/code> 版本，只要 &lt;code>sudo pacman -Syu&lt;/code> 即可解决问题。&lt;/li>
+&lt;li>此外，3 月份的 archiso 也受到波及，arCNiso 作为基于 archiso 的项目也未能幸免，无论是 archiso 还是 arCNiso 用户都应当尽快删除 3 月份的版本。&lt;/li>
+&lt;/ul>
+&lt;p>最后，这并不意味着开源软件（相对）不安全。——闭源软件在这方面的问题显然只会更严重，因为它的代码连被公开审查的机会都不会有，开源软件在安全方面仍然具有根本性的优势。&lt;/p>
+&lt;p>不过，xz-utils 事件，确实就安全问题为开源社区敲响了警钟。或许，未来可以利用人工智能自动扫描所有公开代码。&lt;/p>
+&lt;p>此外，考虑到事件性质更侧重于供应链投毒，即使在这一特定事件中幸免于难，闭源软件界大概也不会觉得事不关己，比如前文的自动扫描机制如果成为现实，闭源界就可能会参与其中，说不定已经有这样的例子了。&lt;/p>
+&lt;h2 id="arcniso-202404-版发布">
+	&lt;a class="h-a" href="#arcniso-202404-%e7%89%88%e5%8f%91%e5%b8%83">arCNiso 2024.04 版发布&lt;/a>
+&lt;/h2>&lt;blockquote>
+&lt;p>&lt;a class="link link--text" href="https://github.com/clsty/arCNiso" rel="external">arCNiso&lt;/a> 是 clsty 开发维护的自由开源项目，简单点说就是对 Arch Linux 的 Live CD 的一种易用化定制。&lt;/p>
+&lt;/blockquote>
+&lt;p>此为例行&lt;a class="link link--text" href="https://github.com/clsty/arCNiso/releases/" rel="external">发布&lt;/a>，项目本身没有什么大的变化，但构建的镜像随着 &lt;code>sudo pacman -Syu&lt;/code> 而自动免除了 xz 事件的影响。&lt;/p>
+&lt;p>并且，在 3 月 3 日，因为 arCNiso 的 star 数达到 16，clsty（我）首次拿到了 &lt;a class="link link--text" href="https://github.com/clsty?achievement=starstruck&amp;tab=achievements" rel="external">GitHub Starstruck 成就&lt;/a>，感谢大家对 arCNiso 项目的支持。&lt;/p>
+&lt;h2 id="空间站更新汇总">
+	&lt;a class="h-a" href="#%e7%a9%ba%e9%97%b4%e7%ab%99%e6%9b%b4%e6%96%b0%e6%b1%87%e6%80%bb">空间站更新汇总&lt;/a>
+&lt;/h2>&lt;p>除了本文以外，空间站还更新了以下内容：&lt;/p>
+&lt;dl>
+&lt;dt>&lt;strong>散文屋&lt;/strong>&lt;/dt>
+&lt;dd>&lt;ul>
+&lt;li>&lt;a class="link link--text" href="https://blog.celestialy.top/p/95e11a033">网页笔记/博客的 LaTeX 支持现状&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/dd>
+&lt;/dl></description></item><item><title>月摘：2024.03</title><link>https://blog.celestialy.top/p/f98adc8a3/2024-03-00/</link><pubDate>Fri, 01 Mar 2024 00:00:00 +0800</pubDate><guid>https://blog.celestialy.top/p/f98adc8a3/2024-03-00/</guid><description>&lt;p class="p-first">空间站的第一篇月度摘要。&lt;/p>
+&lt;h2 id="空间站正式启用">
+	&lt;a class="h-a" href="#%e7%a9%ba%e9%97%b4%e7%ab%99%e6%ad%a3%e5%bc%8f%e5%90%af%e7%94%a8">空间站正式启用&lt;/a>
+&lt;/h2>&lt;p>自 2023 年夏末至今，经历了两次大幅调整（HB -&amp;gt; Hextra -&amp;gt; Perplex）之后，空间站在底层技术层面终于正式确定，开始稳定运行。&lt;/p>
+&lt;p>之前在使用 Hextra 时期临时放出的文章暂时还未迁移，之后会慢慢整理，请读者稍安勿躁。&lt;/p>
+&lt;p>欢迎订阅 &lt;a class="link link--text" href="https://blog.celestialy.top/index.xml">RSS&lt;/a> 以获取后续更新。&lt;/p>
+&lt;h2 id="arcniso-202403-版发布">
+	&lt;a class="h-a" href="#arcniso-202403-%e7%89%88%e5%8f%91%e5%b8%83">arCNiso 2024.03 版发布&lt;/a>
+&lt;/h2>&lt;blockquote>
+&lt;p>&lt;a class="link link--text" href="https://github.com/clsty/arCNiso" rel="external">arCNiso&lt;/a> 是 clsty 开发维护的自由开源项目，简单点说就是对 Arch Linux 的 Live CD 的一种易用化定制。&lt;/p>
+&lt;/blockquote>
+&lt;p>此为例行&lt;a class="link link--text" href="https://github.com/clsty/arCNiso/releases/" rel="external">发布&lt;/a>，几乎没有什么实质变化。不过实际上作为上游的
+releng 这个月也少见地完全没有更新。&lt;/p>
+&lt;p>值得注意的变化是，在过去一个月中，arCNiso 的文档被迁移至基于 Astro 的 Starlight，&lt;a class="link link--text" href="https://arcn.celestialy.top/" rel="external">站点&lt;/a>早已可用，但此项工作仍在进行中，一些问题仍待解决。&lt;/p>
+&lt;h2 id="空间站更新汇总">
+	&lt;a class="h-a" href="#%e7%a9%ba%e9%97%b4%e7%ab%99%e6%9b%b4%e6%96%b0%e6%b1%87%e6%80%bb">空间站更新汇总&lt;/a>
+&lt;/h2>&lt;p>除了本文以外，空间站还更新了以下内容：&lt;/p>
+&lt;dl>
+&lt;dt>&lt;strong>散文屋&lt;/strong>&lt;/dt>
+&lt;dd>&lt;ul>
+&lt;li>&lt;a class="link link--text" href="https://blog.celestialy.top/p/42c4ae30a">电子笔记方案：文本还是手写？&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/dd>
+&lt;/dl></description></item></channel></rss>
